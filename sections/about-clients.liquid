@@ -1,0 +1,24 @@
+{% for block in section.blocks %}
+  <div class="client">
+    {{ block.settings.about-client-text }}
+  </div>
+{% endfor %}
+{% schema %}
+  {
+    "name": "Clients",
+    "max_blocks": 16,
+    "blocks" : [
+      {
+        "type": "text",
+        "name": "Client",
+        "settings": [
+          {
+            "type": "text",
+            "id": "about-client-text",
+            "label": "Client Name"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

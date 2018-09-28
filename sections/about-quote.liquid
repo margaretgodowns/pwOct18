@@ -1,0 +1,26 @@
+<div class="quote-wrapper">
+  <div class="quotation-marks">
+    <p>“ ”</p>
+  </div>
+  <div class="quote-text">
+    {{ section.settings.about-quote }}
+  </div>
+</div>
+<div class="contact-wrapper">
+  <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+  <a href="mailto:inquiries@pierceandward.com">inquiries@pierceandward.com</a>
+</div>
+
+{% schema %}
+  {
+    "name": "Quote",
+    "class": "about-quote",
+    "settings": [
+      {
+      	"type": "textarea",
+        "id": "about-quote",
+        "label": "Quote"
+      }
+    ]
+  }
+{% endschema %}

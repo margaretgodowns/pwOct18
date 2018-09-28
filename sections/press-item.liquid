@@ -1,0 +1,45 @@
+{% for block in section.blocks %}
+  <div class="press-item">
+    <img src="{{ block.settings.press-item-image | img_url: '300x300' }}" />
+    <div class="press-content">
+      <h3>{{ block.settings.press-item-title }}</h3>
+      <p>{{ block.settings.press-item-publication }}</p>
+      <a href="{{ block.settings.press-item-link }}">Read Post</a>
+    </div>
+  </div>
+{% endfor %}
+{{ paginate | default_pagination }}
+{% schema %}
+  {
+    "name": "Press",
+    "max_blocks": 16,
+    "blocks" : [
+      {
+        "type": "text",
+        "name": "Press Item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "press-item-title",
+            "label": "Title"
+          },
+          {
+            "type": "text",
+            "id": "press-item-publication",
+            "label": "Publication"
+          },
+          {
+            "type": "url",
+            "id": "press-item-link",
+            "label": "Link"
+          },
+          {
+	          "type": "image_picker",
+		        "id": "press-item-image",
+		        "label": "Image"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

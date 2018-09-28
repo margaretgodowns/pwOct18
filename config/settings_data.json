@@ -1,0 +1,842 @@
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#1c1d1d",
+    "color_borders": "#1c1d1d",
+    "color_primary": "#1c1d1d",
+    "color_secondary": "#a26b25",
+    "color_product_background": "#f7f7f7",
+    "color_sale_tag": "#990000",
+    "color_input": "#f6f6f6",
+    "color_newsletter": "#f6f6f6",
+    "color_drawer_background": "#1c1d1d",
+    "color_drawer_text": "#ffffff",
+    "color_drawer_border": "#343535",
+    "color_drawer_button": "#a26b25",
+    "color_drawer_button_text": "#ffffff",
+    "type_header_family": "Google_Old+Standard+TT_700_serif",
+    "type_header_base_size": "30px",
+    "type_header_border_thickness": "1px",
+    "type_accent_family": "Google_Montserrat_400_sans",
+    "type_accent_transform": true,
+    "type_accent_spacing": true,
+    "type_base_family": "Google_Arapey_400_serif",
+    "type_base_size": "16px",
+    "type_base_italize_titles": true,
+    "cart_type": "drawer",
+    "cart_notes_enable": false,
+    "social_facebook_link": "",
+    "social_twitter_link": "",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/pierceandwardinteriors\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/pierceandward\/",
+    "social_snapchat_link": "",
+    "social_google_plus_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_fancy_link": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "share_instagram": true,
+    "share_email": true,
+    "favicon": "shopify:\/\/shop_images\/logo-green.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/PW_Banner_copy.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/PW_Cart.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#ffffff",
+    "checkout_heading_font": "Open Sans",
+    "checkout_body_font": "Open Sans",
+    "checkout_accent_color": "#a26b25",
+    "checkout_button_color": "#000000",
+    "checkout_error_color": "#ff6d6d",
+    "checkout_banner_background_color": "#fff",
+    "checkout_call_to_action_color": "#a26b25",
+    "checkout_use_header_image": false,
+    "collection_products_grid": "collage",
+    "customer_layout": "customer_area",
+    "favicon_enable": false,
+    "product_vendor_enable": false,
+    "social_sharing_style": "clean",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "main_menu_link_list": "main-menu",
+          "logo": "shopify:\/\/shop_images\/PIERCEANDWARD_Green_PW_v2_copy.png",
+          "logo-inverted": "",
+          "logo_max_width": "60",
+          "search": "modal",
+          "show_announcement": false,
+          "home_page_only": false,
+          "text": "Announce something here",
+          "link": "",
+          "color_bg": "#1c1d1d",
+          "color_text": "#ffffff"
+        }
+      },
+      "featured-products": {
+        "type": "featured-products",
+        "settings": {
+          "title": "Featured collection",
+          "home_featured_products": "",
+          "collection_products_grid": "collage"
+        }
+      },
+      "featured-content": {
+        "type": "featured-content",
+        "blocks": {
+          "featured-content-0": {
+            "type": "text",
+            "settings": {
+              "home_page_richtext": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "featured-content-0"
+        ],
+        "settings": {}
+      },
+      "featured-collections": {
+        "type": "featured-collections",
+        "blocks": {
+          "featured-collections-0": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          },
+          "featured-collections-1": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          },
+          "featured-collections-2": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          }
+        },
+        "block_order": [
+          "featured-collections-0",
+          "featured-collections-1",
+          "featured-collections-2"
+        ],
+        "settings": {
+          "title": "Collection list"
+        }
+      },
+      "newsletter": {
+        "type": "newsletter",
+        "settings": {}
+      },
+      "drawer-menu": {
+        "type": "drawer-menu",
+        "settings": {
+          "drawer_top_link_list": "main-menu",
+          "drawer_bottom_link_list": "footer",
+          "drawer_search_enable": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "footer_link_list": "footer"
+        }
+      },
+      "slideshow-landing": {
+        "type": "slideshow-landing",
+        "blocks": {
+          "1500238527161": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/PW-portrait_MAIN_2c2f8f68-e8b3-48ba-b0d3-2f58d772943a.jpeg",
+              "slide_text_color": "is-dark",
+              "slide_subheading": "",
+              "slide_heading": "",
+              "slide_cta": "",
+              "slide_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1500238527161"
+        ],
+        "settings": {
+          "hero_home_auto": true,
+          "home_hero_auto_speed": "5000"
+        }
+      },
+      "slideshow-home": {
+        "type": "slideshow-home",
+        "blocks": {
+          "1500421410366": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/32.jpg",
+              "slide_text_color": "is-dark",
+              "slide_subheading": "",
+              "slide_heading": "",
+              "slide_cta": "",
+              "slide_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1500421410366"
+        ],
+        "settings": {
+          "hero_home_auto": true,
+          "home_hero_auto_speed": "5000"
+        }
+      },
+      "slideshow-portfolio": {
+        "type": "slideshow-portfolio",
+        "blocks": {
+          "1501697972685": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/10.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1502125258348": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/TEST4.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501786931116": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/TEST1_affd4790-e1e5-435d-9a81-499df417011b.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501786016575": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/20.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458122508": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/24_514d6300-012f-4176-bf7a-9772ebb62bb7.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458152276": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/11_9328f073-af91-4eaa-a545-39319fcdcfb1.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458265622": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/PW-Foyer.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1536697696746": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/17.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1537900394036": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/23.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1537900413953": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/25.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1537900429937": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/29.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1537900450980": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/30.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1537900557646": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/33.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1537900612751": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/31.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1537900641922": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/32.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1537900763800": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/27.jpg",
+              "slide_text_color": "is-dark"
+            }
+          }
+        },
+        "block_order": [
+          "1501697972685",
+          "1502125258348",
+          "1537900641922",
+          "1501786931116",
+          "1537900612751",
+          "1536697696746",
+          "1537900394036",
+          "1537900557646",
+          "1537900413953",
+          "1501458122508",
+          "1501786016575",
+          "1537900429937",
+          "1501458152276",
+          "1537900450980",
+          "1537900763800",
+          "1501458265622"
+        ],
+        "settings": {
+          "hero_home_auto": true,
+          "home_hero_auto_speed": "5000"
+        }
+      },
+      "branded-overlay": {
+        "type": "branded-overlay",
+        "settings": {}
+      },
+      "portfolio-overlay": {
+        "type": "portfolio-overlay",
+        "settings": {}
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "zoom_enable": false,
+          "social_sharing_products": true,
+          "product_vendor_enable": false
+        }
+      },
+      "about-hero-image": {
+        "type": "about-hero-image",
+        "settings": {
+          "hero-image-about": "shopify:\/\/shop_images\/PW-Portrait-0002_5c27e244-ceaf-4106-9cff-ec3a741e927f.jpg"
+        }
+      },
+      "about-text": {
+        "type": "about-text",
+        "settings": {
+          "about-text": "As snow fell on New York City in the winter of 2012, two kindred spirits would join forces in the warm, wood paneled underbelly of an East Village bar. Louisa Pierce spied an impish beauty whose spirit and zest flowed freer than the whiskey that was keeping warm the rock and roll remnants of recent past and the It Girls of tomorrow. Emily Ward returned her gaze and they soon bonded over their love of Art Deco lines that swooped over the crush of peacock velvet into the swish of a floral drape only to be stopped dead in its tracks by the stark cool of a brass lamp. They knew that the senses should be shaken and not stirred.  \n<br><br>\nThey knew that chic should never be shabby. They knew that glamour was essential but never at the cost of comfort. They knew instinctively that romances could be made richer, inspirations clearer, and futures brighter if surrounded by undeniable beauty. These mottos swirled and swelled into a style that transcended eclectic into an electric collective!  \n<br><br>\nThey packed their things and relocated to the Deep South. The drowsy drawl of Nashville, Tennessee went quiet as they scoured and pillaged every imaginable vendor in search of chandeliers that shimmered with delicate magic, kaleidoscope carpets, heavy with history, marble that was smooth to palm and cool to the cheek, and wood that whispered that it was born long before you. They built worlds around themselves that charged the imagination and planted seeds of lust in the hearts of their visitors. It wasn’t long before a porcelain skinned, flame haired beauty declared it only right that they delve into her heart and manifest her essence into the home that surrounded her.  \n<br><br>\nA gentleman of Southern Royalty with a wife so lovely and rare that she could only be named after a flower called upon them to ignite their kingdom with casual elegance and gentle grandeur. They smoothed the raucous edges of a bluesy drummer’s soul and gave him a serene haven from his life on the road. They gave a manic maker of film and art a place to create, combust, and refuel."
+        }
+      },
+      "about-clients": {
+        "type": "about-clients",
+        "blocks": {
+          "1501292132411": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Karen Elson"
+            }
+          },
+          "1501292140204": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Rachel Korine"
+            }
+          },
+          "1501292426085": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Dakota Johnson"
+            }
+          },
+          "1501292435366": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Aaron & Sam Taylor-Johnson"
+            }
+          },
+          "1501292444581": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Caleb Followill"
+            }
+          },
+          "1501292460815": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Leonardo DiCaprio"
+            }
+          },
+          "1501292471896": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Patrick Carney"
+            }
+          },
+          "1501292483946": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Colin & Samantha Hanks"
+            }
+          },
+          "1501292493072": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Lily Aldridge"
+            }
+          },
+          "1501292501238": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Brie Larson"
+            }
+          },
+          "1501292510149": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Harmony Korine"
+            }
+          },
+          "1501292520758": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Jennifer Meyer"
+            }
+          },
+          "1501292529085": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Miles Teller"
+            }
+          }
+        },
+        "block_order": [
+          "1501292132411",
+          "1501292140204",
+          "1501292426085",
+          "1501292435366",
+          "1501292444581",
+          "1501292460815",
+          "1501292471896",
+          "1501292483946",
+          "1501292493072",
+          "1501292501238",
+          "1501292510149",
+          "1501292520758",
+          "1501292529085"
+        ],
+        "settings": {}
+      },
+      "about-quote": {
+        "type": "about-quote",
+        "settings": {
+          "about-quote": "Our rooms aren't overly pretty. They're a little dark, \u0003a little weird. And that's what makes them interesting."
+        }
+      },
+      "shop-header": {
+        "type": "shop-header",
+        "settings": {}
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "collection_products_grid": "grid",
+          "collection_tags_enable": true,
+          "product_vendor_enable": true
+        }
+      },
+      "press-item": {
+        "type": "press-item",
+        "blocks": {
+          "1501555311997": {
+            "type": "text",
+            "settings": {
+              "press-item-title": "THE STARTER HOUSE",
+              "press-item-publication": "GARDEN & GUN",
+              "press-item-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/0019\/files\/19_homplace.pdf?18045650189502434799",
+              "press-item-image": "shopify:\/\/shop_images\/press-img_09419bd1-84d7-4584-858e-8807d287a0c5.png"
+            }
+          },
+          "1501556533630": {
+            "type": "text",
+            "settings": {
+              "press-item-title": "Cali-Cool Home Makeover",
+              "press-item-publication": "",
+              "press-item-link": "https:\/\/www.onekingslane.com\/live-love-home\/jen-meyer-home-makeover-pierce-and-ward\/",
+              "press-item-image": "shopify:\/\/shop_images\/press2.png"
+            }
+          },
+          "1501556659796": {
+            "type": "text",
+            "settings": {
+              "press-item-title": "Elegant English-Inspired",
+              "press-item-publication": "Architectural Digest",
+              "press-item-link": "http:\/\/www.architecturaldigest.com\/story\/tour-karen-elsons-elegant-english-inspired-nashville-home",
+              "press-item-image": "shopify:\/\/shop_images\/press3.png"
+            }
+          },
+          "1501556737067": {
+            "type": "text",
+            "settings": {
+              "press-item-title": "Leo in Malibu",
+              "press-item-publication": "Trulia",
+              "press-item-link": "https:\/\/www.trulia.com\/blog\/celebrity-homes\/hollywood-heartthrob-leonardo-dicaprio-lists-malibu-home\/",
+              "press-item-image": "shopify:\/\/shop_images\/press4.png"
+            }
+          },
+          "1501556867911": {
+            "type": "text",
+            "settings": {
+              "press-item-title": "Soul Sisters",
+              "press-item-publication": "House Beautiful",
+              "press-item-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/0019\/files\/hbx0916-nextwave-lo.pdf?16214652705472318380",
+              "press-item-image": "shopify:\/\/shop_images\/press5.png"
+            }
+          },
+          "1501556988270": {
+            "type": "text",
+            "settings": {
+              "press-item-title": "Southern Hot List",
+              "press-item-publication": "Garden & Gun",
+              "press-item-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/0019\/files\/22_GG0116_hotlist.pdf?12569446281392227304",
+              "press-item-image": "shopify:\/\/shop_images\/press6.png"
+            }
+          }
+        },
+        "block_order": [
+          "1501555311997",
+          "1501556533630",
+          "1501556659796",
+          "1501556737067",
+          "1501556867911",
+          "1501556988270"
+        ],
+        "settings": {}
+      },
+      "instafeed": {
+        "type": "instafeed",
+        "settings": {}
+      }
+    },
+    "content_for_index": []
+  },
+  "presets": {
+    "Classic": {
+      "cart_type": "drawer",
+      "cart_notes_enable": false,
+      "checkout_accent_color": "#a26b25",
+      "checkout_banner_background_color": "#fff",
+      "checkout_button_color": "#000000",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "collection_products_grid": "collage",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#1c1d1d",
+      "color_borders": "#1c1d1d",
+      "color_drawer_background": "#1c1d1d",
+      "color_drawer_border": "#343535",
+      "color_drawer_button": "#a26b25",
+      "color_drawer_button_text": "#ffffff",
+      "color_drawer_text": "#ffffff",
+      "color_input": "#f6f6f6",
+      "color_newsletter": "#f6f6f6",
+      "color_primary": "#1c1d1d",
+      "color_product_background": "#f7f7f7",
+      "color_sale_tag": "#990000",
+      "color_secondary": "#a26b25",
+      "customer_layout": "customer_area",
+      "favicon_enable": false,
+      "product_vendor_enable": false,
+      "share_facebook": true,
+      "share_pinterest": true,
+      "share_twitter": true,
+      "social_sharing_style": "clean",
+      "type_accent_family": "Google_Montserrat_400_sans",
+      "type_accent_spacing": true,
+      "type_accent_transform": true,
+      "type_base_family": "Google_Arapey_400_serif",
+      "type_base_italize_titles": true,
+      "type_base_size": "16px",
+      "type_header_base_size": "30px",
+      "type_header_border_thickness": "1px",
+      "type_header_family": "Google_Old+Standard+TT_400_serif",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "show_announcement": true,
+            "color_bg": "#1c1d1d",
+            "color_text": "#ffffff"
+          }
+        },
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "home_featured_products": "frontpage"
+          }
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "blocks": {
+            "featured-content-0": {
+              "type": "text",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "featured-content-0"
+          ],
+          "settings": {}
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collections-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "featured-collections-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "featured-collections-2": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "featured-collections-0",
+            "featured-collections-1",
+            "featured-collections-2"
+          ],
+          "settings": {}
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "featured-content",
+        "featured-collections",
+        "featured-products",
+        "newsletter"
+      ]
+    },
+    "Playful": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#360f5f",
+      "color_borders": "#5dd2b4",
+      "color_primary": "#5dd2b4",
+      "color_secondary": "#058677",
+      "color_product_background": "#fff4f6",
+      "color_sale_tag": "#e80970",
+      "color_input": "#f6f6f6",
+      "color_newsletter": "#bde9f2",
+      "color_drawer_background": "#360f5f",
+      "color_drawer_text": "#ffffff",
+      "color_drawer_border": "#50297a",
+      "color_drawer_button": "#5dd2b4",
+      "color_drawer_button_text": "#360f5f",
+      "type_header_family": "Google_Quicksand_700_sans",
+      "type_header_base_size": "36px",
+      "type_header_border_thickness": "1px",
+      "type_accent_family": "Google_Roboto_700_sans",
+      "type_accent_transform": true,
+      "type_accent_spacing": true,
+      "type_base_family": "Google_Abeezee_Sans",
+      "type_base_size": "17px",
+      "type_base_italize_titles": false,
+      "cart_type": "drawer",
+      "cart_notes_enable": true,
+      "social_facebook_link": "",
+      "social_twitter_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_snapchat_link": "",
+      "social_google_plus_link": "",
+      "social_tumblr_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "social_fancy_link": "",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fff4f6",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Roboto",
+      "checkout_accent_color": "#0d8d7e",
+      "checkout_button_color": "#5dd2b4",
+      "checkout_error_color": "#f01130",
+      "checkout_banner_background_color": "#fff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "collection_products_grid": "collage",
+      "customer_layout": "customer_area",
+      "favicon_enable": false,
+      "product_vendor_enable": false,
+      "social_sharing_style": "clean",
+      "sections": {
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "home_featured_products": "frontpage",
+            "collection_products_grid": "collage"
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {}
+        },
+        "drawer-menu": {
+          "type": "drawer-menu",
+          "settings": {
+            "drawer_top_link_list": "main-menu",
+            "drawer_bottom_link_list": "footer",
+            "drawer_search_enable": false
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "logo_max_width": "260",
+            "search": "modal",
+            "show_announcement": false,
+            "color_bg": "#290c49",
+            "color_text": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "settings": {
+            "footer_link_list": "footer"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_products_grid": "grid",
+            "collection_tags_enable": true,
+            "product_vendor_enable": true
+          }
+        },
+        "1494860348200": {
+          "type": "featured-row",
+          "settings": {
+            "layout": "right"
+          }
+        },
+        "1494894035034": {
+          "type": "featured-row",
+          "settings": {
+            "layout": "left"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "zoom_enable": false,
+            "social_sharing_products": true,
+            "product_vendor_enable": false
+          }
+        },
+        "1496078102297": {
+          "type": "advanced-content",
+          "blocks": {
+            "1496078102297-0": {
+              "type": "html",
+              "settings": {
+                "code": "<div style=\"text-align:center;\">\n<h1 class=\"h1\">Use HTML to format your text so it can be easily read.<\/h1>This text can be used to share information about your brand with customers.<\/div>",
+                "width": "100%",
+                "alignment": "top-middle"
+              }
+            }
+          },
+          "block_order": [
+            "1496078102297-0"
+          ],
+          "settings": {}
+        },
+        "1496177901425": {
+          "type": "advanced-content",
+          "blocks": {
+            "1496177901425-0": {
+              "type": "html",
+              "settings": {
+                "code": "<div style=\"width:745px;text-align: center; margin: 0 auto;\">This text can be used to share information about your brand with customers.<\/div>",
+                "width": "100%",
+                "alignment": "top-middle"
+              }
+            }
+          },
+          "block_order": [
+            "1496177901425-0"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "1496177901425",
+        "featured-products",
+        "newsletter",
+        "1496078102297",
+        "1494860348200",
+        "1494894035034"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<img src="{{ section.settings.hero-image-about | img_url: '2000', crop: 'bottom' }}" alt="{{ section.settings.hero-image-about.alt | default: shop.name }}" >
+
+{% schema %}
+  {
+    "name": "Hero Image",
+    "class": "hero-image-about",
+    "settings": [
+      {
+      	"type": "image_picker",
+        "id": "hero-image-about",
+        "label": "Hero Image"
+      }
+    ]
+  }
+{% endschema %}

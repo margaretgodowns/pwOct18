@@ -1,0 +1,41 @@
+<!-- /templates/blog.liquid -->
+{% paginate blog.articles by 6 %}
+
+<div class="shopify-section-press">
+    
+    {% for article in blog.articles %}
+
+      {% assign article_content = article.excerpt_or_content %}
+
+      <div class="press-item">
+
+        {% unless article.image == blank %}
+          
+          <div class="article__featured-image-wrapper" style="padding-top:{{ 1 | divided_by: article.image.aspect_ratio | times: 100}}%;">
+            {% assign img_url = article.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+            <img class="article__featured-image lazyload"
+              src="{{ article.image | img_url: '300x300', crop: 'center' }}"
+              data-src="{{ img_url }}"
+              data-widths="[360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+              data-aspectratio="{{ article.image.aspect_ratio }}"
+              data-sizes="auto"
+              alt="{{ article.title | escape }}">
+          </div>
+            
+        {% endunless %}
+
+        <div class="press-content">
+          <h3>{{ article.title }}</h3>
+          {{ article_content{{ article_content }}
+        </div>
+      </div>
+
+    {% endfor %}
+
+</div>
+
+    {% if paginate.pages > 0 %}
+      {% include 'pagination' %}
+    {% endif %}
+
+{% endpaginate %}
