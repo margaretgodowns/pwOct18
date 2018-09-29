@@ -3,7 +3,6 @@
 {% endcomment %}
 
 {% paginate collection.products by 6 %}
-
 <header class="section-header text-center">
   <h1>{{ collection.title }}</h1>
   <hr class="hr--small">
@@ -46,6 +45,7 @@
 
 </header>
 
+<div class="wrapper">
 {% if section.settings.collection_products_grid == 'collage' %}
   <div class="grid grid-collage">
     {% comment %}
@@ -101,7 +101,7 @@
     {% endfor %}
   </div>
 {% endif %}
-
+</div>
 {% if paginate.pages > 1 %}
   {% include 'pagination' %}
 {% endif %}

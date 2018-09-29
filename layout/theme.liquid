@@ -109,7 +109,7 @@
     {% endif %}
 
     <main class="main-content" role="main">
-        {% unless template == "collection.image" or template.suffix == "home" or template.suffix == "portfolio" %}
+        {% unless template == "collection.image" or template.suffix == "home" or template.suffix == "portfolio" or template == "collection" %}
           <div class="wrapper">
         {% endunless %}
           {{ content_for_layout }}
