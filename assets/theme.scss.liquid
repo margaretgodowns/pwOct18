@@ -388,6 +388,8 @@ $medium: 1024px;
 $large: 1280px;
 $xlarge: 1440px;
 
+$pwGreen: #615730;
+
 $postSmall: $small + $viewportIncrement;
 $preMedium: $medium - $viewportIncrement;
 $preLarge: $large - $viewportIncrement;
@@ -2799,7 +2801,7 @@ $slick-opacity-not-active: 0.25;
   white-space: nowrap;
   opacity: 0;
   text-align: center;
-  color: #282904;
+  color: #615730;
   @include display-flexbox();
   @include justify-content(space-between);
   @include flex(1 1 50%);
@@ -2843,12 +2845,12 @@ $slick-opacity-not-active: 0.25;
 }
 
 .site-nav__link {
-  font-family: 'Proxima_Nova_Sbold';
+  font-family: $bodyFontStack;
   font-size: em(16px);
   text-transform: uppercase;
   letter-spacing: .14em;
   @include transition(all 0.2s);
-  color: #282904;
+  color: #615730;
 }
 
 .site-nav--has-dropdown {
@@ -3941,6 +3943,19 @@ button.mfp-arrow {
   }
 }
 
+.hide-small-down {
+  display: none;
+  @include at-query($max, $small) {
+    display: block;
+  }
+}
+
+.hide-small-up {
+  display: none;
+  @include at-query($max, $small) {
+    display: block;
+  }
+}
 button:focus {
   outline: 0;
 }
@@ -4001,7 +4016,7 @@ body {
     right: $gutter;
   }
   a {
-    color: #282904;
+    color: #615730;
     font-size: em(14px);
     letter-spacing: .14em;
     @include transition(opacity 0.2s);
@@ -4038,7 +4053,7 @@ body {
     cursor: pointer;
   }
   .fa {
-    color: #282904;
+    color: #615730;
   }
 }
 
@@ -4231,8 +4246,8 @@ select::-ms-expand {
   font-family: 'Sackers Gothic';
   width: 100%;
   background-color: white;
-  color: #282904;
-  border: 2px solid #282904;
+  color: #615730;
+  border: 2px solid #615730;
   font-size: em(18px);
   padding: 15px 20px 12px 20px;
 }
@@ -4257,7 +4272,7 @@ select::-ms-expand {
 }
 
 .product-content-wrapper {
-  border-bottom: 1px solid #282904;
+  border-bottom: 1px solid #615730;
   padding-bottom: 20px;
   margin-bottom: 30px;
 }
@@ -4267,7 +4282,7 @@ select::-ms-expand {
   margin-right: -30px;
   h2 {
     font-family: 'Sackers Gothic';
-    color: #282904;
+    color: #615730;
   }
 }
 
@@ -4284,12 +4299,13 @@ select::-ms-expand {
 }
 
 #about {
+  background-color: #615730;
+  color: #fff;
   h2 {
     font-family: 'Sackers Gothic';
-    color: #323131;
   }
   hr {
-    border-color: #323131;
+    border-color: #fff;
   }
   .center-hr {
     margin: 0 auto;
@@ -4319,7 +4335,6 @@ select::-ms-expand {
   margin: 0 auto;
   font-family: 'Sackers Light';
   text-transform: none;
-  color: #565656;
 }
 
 #shopify-section-about-clients {
@@ -4330,7 +4345,7 @@ select::-ms-expand {
   padding-bottom: 50px;
   .client {
     flex: 1 0 25%;
-    font-family: 'Proxima_Nova_Reg';
+    font-family: $bodyFontStack;
     text-transform: none;
     padding: 10px 0;
     @include at-query($max, $medium) {
@@ -4350,7 +4365,7 @@ select::-ms-expand {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 25px;
-  font-family: 'Proxima_Nova_Reg';
+  font-family: '$bodyFontStack';
 }
 
 .quote-wrapper {
@@ -4386,7 +4401,7 @@ select::-ms-expand {
   color: #ffffff;
   margin: 0 -30px;
   padding: 0 20px;
-  background-color: #282903;
+  background-color: #615730;
   a {
     color: #ffffff;
   }
@@ -4486,7 +4501,7 @@ select::-ms-expand {
     opacity: 1;
     position: static;
     top: auto;
-    color: #282904;
+    color: #615730;
     background-color: #ffffff;
   }
 }
@@ -4496,13 +4511,13 @@ select::-ms-expand {
 }
 
 .pagination {
-  font-family: 'Proxima_Nova_Reg';
+  font-family: '$bodyFontStack';
   font-weight: 200;
   font-size: 18px;
   margin: 0 -30px;
   padding: 30px 0;
   a {
-    color: #282903;
+    color: #615730;
   }
   .page.current {
     font: 'Sackers Gothic';
@@ -4522,6 +4537,10 @@ select::-ms-expand {
 }
 
 /*================ Press Page Styles ================*/
+#press {
+  background-color: #615730;
+}
+
 .shopify-section-press {
   display: flex;
   flex-wrap: wrap;
@@ -4563,7 +4582,7 @@ select::-ms-expand {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #282904;
+  color: #615730;
   opacity: 0;
   @include transition(opacity 0.2s);
   @include at-query($max, $medium) {
@@ -4584,8 +4603,8 @@ select::-ms-expand {
     font-style: italic;
   }
   a {
-    font-family: 'Proxima_Nova_Reg';
-    background-color: #282904;
+    font-family: '$bodyFontStack';
+    background-color: #615730;
     color: #ffffff;
     padding: 10px 30px;
     font-style: normal;
@@ -4623,7 +4642,7 @@ select::-ms-expand {
     padding-top: 25px;
     font-family: 'Sackers Gothic';
     letter-spacing: .12em;
-    color: #282903;
+    color: #615730;
   }
   .hr--small {
     border-width: 3px 0 0 0;
@@ -4631,7 +4650,7 @@ select::-ms-expand {
 }
 
 .cart--continue-browsing a {
-  color: #282904;
+  color: #615730;
   &:hover {
     color: #7B7F32;
   }
